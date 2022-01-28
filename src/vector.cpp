@@ -9,7 +9,9 @@ Geometry::Vector::Vector(float angle, float magnitude):
 	unit_x(0),
 	unit_y(0),
 	magnitude(magnitude)
-{}
+{
+	calculate_unit_vector();
+}
 
 Geometry::Vector::Vector(float unit_x, float unit_y, float magnitude):
 	angle(0),
