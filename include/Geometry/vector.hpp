@@ -6,6 +6,7 @@ namespace Geometry
 {
 	class Vector
 	{
+	public:
 		Vector(float angle, float magnitude);
 		Vector(float unit_x, float unit_y, float magnitude);
 
