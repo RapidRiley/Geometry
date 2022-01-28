@@ -1,0 +1,1 @@
+A small library of geometric functions I use often.
